@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		378D090815C6B54E000E08FB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 378D090715C6B54E000E08FB /* main.c */; };
-		378D090A15C6B54E000E08FB /* zanette.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 378D090915C6B54E000E08FB /* zanette.1 */; };
 		378D092315C6B868000E08FB /* measures.c in Sources */ = {isa = PBXBuildFile; fileRef = 378D091F15C6B868000E08FB /* measures.c */; };
 		378D092415C6B868000E08FB /* network.c in Sources */ = {isa = PBXBuildFile; fileRef = 378D092115C6B868000E08FB /* network.c */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				378D090A15C6B54E000E08FB /* zanette.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -29,7 +27,6 @@
 /* Begin PBXFileReference section */
 		378D090315C6B54E000E08FB /* zanette */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zanette; sourceTree = BUILT_PRODUCTS_DIR; };
 		378D090715C6B54E000E08FB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		378D090915C6B54E000E08FB /* zanette.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = zanette.1; sourceTree = "<group>"; };
 		378D091F15C6B868000E08FB /* measures.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = measures.c; sourceTree = "<group>"; };
 		378D092015C6B868000E08FB /* measures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measures.h; sourceTree = "<group>"; };
 		378D092115C6B868000E08FB /* network.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = network.c; sourceTree = "<group>"; };
@@ -67,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				378D090715C6B54E000E08FB /* main.c */,
-				378D090915C6B54E000E08FB /* zanette.1 */,
 				378D091F15C6B868000E08FB /* measures.c */,
 				378D092015C6B868000E08FB /* measures.h */,
 				378D092115C6B868000E08FB /* network.c */,
@@ -186,14 +182,20 @@
 		378D090E15C6B54E000E08FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = "/opt/local/lib/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/opt/local/include/**";
 			};
 			name = Debug;
 		};
 		378D090F15C6B54E000E08FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = "/opt/local/lib/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/opt/local/include/**";
 			};
 			name = Release;
 		};

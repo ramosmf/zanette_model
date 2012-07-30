@@ -8,17 +8,21 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <gsl/gsl_rng.h>
+
 #include "network.h"
 
 int **nbr; // nbracency list
 int *Z; // Vector that keep the vertices degree
 int N, K; // Total number of vertex and edges
 
-unsigned long int lim=-1, a=(sizeof(int)==4)?302875106592253:16807,  r=13976591; //lcg random number generator
-
 void addLink(int i, int j);
 
+gsl_rng *r; //gsl random number
+double ranD;
+
 void pajek(char *str){
+    /* print nodes and edges in pajek's format */
     int m, n;
     FILE *PAJ;
     
@@ -58,38 +62,39 @@ void addLink(int i, int j){
 }
 
 void SWN(double p){
+    /* create a small-world network */
     int i, j, v, s;
     
     nbr = (int **)realloc(NULL, N * sizeof(int *));
     for(i=0;i<N;i++)  nbr[i]=(int *)calloc(1, sizeof(int));
     Z = (int *)calloc(N, sizeof(int));
-
     
-    for (j=1; j<=K/2; j++) {
+    for (j=1; j<=K/2; j++) {// make a ring of nodes 
         for (v=0; v<N; v++) {
             s=(v+j)%N;   
             addLink(v, s);    
         }
     }
     
-    for (j=1; j<=K/2; j++) {
+    for (j=1; j<=K/2; j++) {//rewiring with prabability p
         for (v=0; v<N; v++) {
             s=(v+j)%N;
-            r=r*a;
-            if((double)r/lim<p){
+            ranD = gsl_rng_uniform(r);
+            if(ranD<p){
                 remove_link(v, s);  
                 do {
-                    r=r*a;
-                    s=N*(double)r/lim;
+                    ranD = gsl_rng_uniform(r);
+                    s=N*ranD;
                 } while ((s==v)||(find_nbr(v, s)!=-1));
                 addLink(v, s);
             }
         }
     }
-   
+    
 }
 
 void remove_link(int v1, int v2){
+    /* remove link between v1 and v2 */
     int x;
     
     x=find_nbr(v1, v2);
@@ -105,6 +110,7 @@ void remove_link(int v1, int v2){
 }
 
 int neighbor(int v1, int v2){
+    /* return 1 if v1 and v2 are neighbor and 0 otherwise */
     int i;
     for(i=0;i<Z[v1];i++){
         if(nbr[v1][i]==v2) return 1;

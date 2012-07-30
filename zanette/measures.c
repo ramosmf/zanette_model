@@ -12,7 +12,7 @@
 #include "measures.h"
 #include <limits.h>
 
-int **nbr; // nbracency list
+int **nbr; // Adjacency list
 int *Z; // Vector that keep the vertices degree
 int N; // Total number of vertex and edges
 
