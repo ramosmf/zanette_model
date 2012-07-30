@@ -1,4 +1,3 @@
-dependencies: \
-  /Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/measures.c \
-  /Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/network.h \
-  /Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/measures.h
+dependencies: /Users/marlon/Documents/zanette_model/zanette/measures.c \
+  /Users/marlon/Documents/zanette_model/zanette/network.h \
+  /Users/marlon/Documents/zanette_model/zanette/measures.h

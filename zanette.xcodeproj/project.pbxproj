@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		378D090815C6B54E000E08FB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 378D090715C6B54E000E08FB /* main.c */; };
 		378D090A15C6B54E000E08FB /* zanette.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 378D090915C6B54E000E08FB /* zanette.1 */; };
-		378D091415C6B5BC000E08FB /* measures.c in Sources */ = {isa = PBXBuildFile; fileRef = 378D091015C6B5BC000E08FB /* measures.c */; };
-		378D091515C6B5BC000E08FB /* network.c in Sources */ = {isa = PBXBuildFile; fileRef = 378D091215C6B5BC000E08FB /* network.c */; };
+		378D092315C6B868000E08FB /* measures.c in Sources */ = {isa = PBXBuildFile; fileRef = 378D091F15C6B868000E08FB /* measures.c */; };
+		378D092415C6B868000E08FB /* network.c in Sources */ = {isa = PBXBuildFile; fileRef = 378D092115C6B868000E08FB /* network.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,10 +30,10 @@
 		378D090315C6B54E000E08FB /* zanette */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zanette; sourceTree = BUILT_PRODUCTS_DIR; };
 		378D090715C6B54E000E08FB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		378D090915C6B54E000E08FB /* zanette.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = zanette.1; sourceTree = "<group>"; };
-		378D091015C6B5BC000E08FB /* measures.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = measures.c; path = "../../../../Desktop/DK-model/measures.c"; sourceTree = "<group>"; };
-		378D091115C6B5BC000E08FB /* measures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = measures.h; path = "../../../../Desktop/DK-model/measures.h"; sourceTree = "<group>"; };
-		378D091215C6B5BC000E08FB /* network.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = network.c; path = "../../../../Desktop/DK-model/network.c"; sourceTree = "<group>"; };
-		378D091315C6B5BC000E08FB /* network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = network.h; path = "../../../../Desktop/DK-model/network.h"; sourceTree = "<group>"; };
+		378D091F15C6B868000E08FB /* measures.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = measures.c; sourceTree = "<group>"; };
+		378D092015C6B868000E08FB /* measures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measures.h; sourceTree = "<group>"; };
+		378D092115C6B868000E08FB /* network.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = network.c; sourceTree = "<group>"; };
+		378D092215C6B868000E08FB /* network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = network.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +68,10 @@
 			children = (
 				378D090715C6B54E000E08FB /* main.c */,
 				378D090915C6B54E000E08FB /* zanette.1 */,
-				378D091015C6B5BC000E08FB /* measures.c */,
-				378D091115C6B5BC000E08FB /* measures.h */,
-				378D091215C6B5BC000E08FB /* network.c */,
-				378D091315C6B5BC000E08FB /* network.h */,
+				378D091F15C6B868000E08FB /* measures.c */,
+				378D092015C6B868000E08FB /* measures.h */,
+				378D092115C6B868000E08FB /* network.c */,
+				378D092215C6B868000E08FB /* network.h */,
 			);
 			path = zanette;
 			sourceTree = "<group>";
@@ -128,8 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				378D090815C6B54E000E08FB /* main.c in Sources */,
-				378D091415C6B5BC000E08FB /* measures.c in Sources */,
-				378D091515C6B5BC000E08FB /* network.c in Sources */,
+				378D092315C6B868000E08FB /* measures.c in Sources */,
+				378D092415C6B868000E08FB /* network.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +216,7 @@
 				378D090F15C6B54E000E08FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

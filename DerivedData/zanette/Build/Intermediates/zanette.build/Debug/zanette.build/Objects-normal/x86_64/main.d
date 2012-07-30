@@ -1,3 +1,3 @@
-dependencies: /Users/marlon/Documents/Programs/zanette/zanette/main.c \
-  /Users/marlon/Documents/Programs/zanette/zanette/network.h \
-  /Users/marlon/Documents/Programs/zanette/zanette/measures.h
+dependencies: /Users/marlon/Documents/zanette_model/zanette/main.c \
+  /Users/marlon/Documents/zanette_model/zanette/network.h \
+  /Users/marlon/Documents/zanette_model/zanette/measures.h

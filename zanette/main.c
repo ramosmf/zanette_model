@@ -25,15 +25,11 @@ int main (int argc, const char * argv[])
     FILE *outf;
     extern unsigned long int r, a, lim; 
 
-    //if(!(argc==4)){printf("error: invalid argument\nsintax: %s [lattice size] [mean degree] [sample size]\n", argv[0]); return 0;}
+    if(!(argc==4)){printf("error: invalid argument\nsintax: %s [lattice size] [mean degree] [sample size]\n", argv[0]); return 0;}
 
-    //N=atoi(argv[1]);
-    //K=atoi(argv[2]);;
-    //NA=atoi(argv[3]);;
-    
-    N=100;
-    K=4;
-    NA=1;
+    N=atoi(argv[1]);
+    K=atoi(argv[2]);;
+    NA=atoi(argv[3]);;
     
     sprintf(str, "refractory-%d-%d-%d.dat", N, K, NA);
     outf=fopen(str, "w");

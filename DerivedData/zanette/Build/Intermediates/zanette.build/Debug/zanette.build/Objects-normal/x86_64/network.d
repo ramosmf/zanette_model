@@ -1,3 +1,2 @@
-dependencies: \
-  /Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/network.c \
-  /Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/network.h
+dependencies: /Users/marlon/Documents/zanette_model/zanette/network.c \
+  /Users/marlon/Documents/zanette_model/zanette/network.h

@@ -2,10 +2,10 @@ Tzanette
 v4
 r1
 cCheck dependencies
-cCompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/main.o /Users/marlon/Documents/Programs/zanette/zanette/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.o /Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/measures.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.o /Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/network.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Products/Debug/zanette normal x86_64
+cCompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.o /Users/marlon/Documents/zanette_model/zanette/measures.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/main.o /Users/marlon/Documents/zanette_model/zanette/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.o /Users/marlon/Documents/zanette_model/zanette/network.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug/zanette normal x86_64
 
 N/Developer/SDKs/MacOSX10.7.sdk
 c000000004E7AD70B00000000000000EE
@@ -34,38 +34,94 @@ t1343651450
 s21260
 
 N/Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/measures.c
-c000000004FE0E6EA0000000000000CC2
-t1340139242
-s3266
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/measures.h
-c000000004FDF5B1300000000000001B3
-t1340037907
-s435
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/network.c
-c000000004FE0E6E90000000000000B47
-t1340139241
-s2887
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/network.h
-c000000004FDF830B0000000000000181
-t1340048139
-s385
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/marlon/Documents/Programs/zanette/zanette/main.c
-c0000000050167E9100000000000007E8
-t1343651473
-s2024
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/marlon/Documents/Programs/zanette/zanette/measures.h
-c000000004FDF5B1300000000000001B3
-t1340037907
-s435
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/marlon/Documents/Programs/zanette/zanette/network.h
-c000000004FDF830B0000000000000181
-t1340048139
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/main.o
+t1343652014
+s5716
+
+N/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.o
+t2
+s0
+
+N/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.o
+t1343651978
+s9072
+
+N/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/zanette.LinkFileList
+c00000000501680AE00000000000001AE
+t1343652014
+s430
+
+N/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug/zanette
+t1343651978
+s21260
+
+N/Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/measures.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/network.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/marlon/Documents/zanette_model/zanette/main.c
+c000000005016808A00000000000007E8
+t1343651978
+s2024
+
+N/Users/marlon/Documents/zanette_model/zanette/measures.c
+c000000005016808A0000000000000CC2
+t1343651978
+s3266
+
+N/Users/marlon/Documents/zanette_model/zanette/measures.h
+c000000005016808A00000000000001B3
+t1343651978
+s435
+
+N/Users/marlon/Documents/zanette_model/zanette/network.c
+c000000005016808A0000000000000B47
+t1343651978
+s2887
+
+N/Users/marlon/Documents/zanette_model/zanette/network.h
+c000000005016808A0000000000000181
+t1343651978
 s385
 
 CBuild AST from /Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/measures.c
@@ -77,9 +133,24 @@ r0
 CBuild AST from /Users/marlon/Documents/Programs/zanette/zanette/main.c
 r0
 
+CBuild AST from /Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/measures.c
+r0
+
+CBuild AST from /Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/network.c
+r0
+
+CBuild AST from /Users/marlon/Documents/zanette_model/zanette/main.c
+r0
+
+CBuild AST from /Users/marlon/Documents/zanette_model/zanette/measures.c
+r0
+
+CBuild AST from /Users/marlon/Documents/zanette_model/zanette/network.c
+r0
+
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesac1fc311b6c6b541^2e76c311b6c6b541^---0#1#0#--18"Check dependencies36"50FFB9A8-B0DC-4B63-8F82-57106F10D0F3-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese1d2d96eb8c6b541^09f9dc6eb8c6b541^---0#1#0#--18"Check dependencies36"040F5A27-6323-49C5-8C6E-5841B0E98719-
 
 CCompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/main.o /Users/marlon/Documents/Programs/zanette/zanette/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 s365344273.765674
@@ -94,6 +165,19 @@ xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/marlon/Documents/Programs/zanette/zanette/main.caf25c411b6c6b541^5628ce11b6c6b541^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/marlon/Documents/Programs/zanette/zanette/main.c0000000000000000^2157"CompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/main.o zanette/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marlon/Documents/Programs/zanette    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -iquote /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-generated-files.hmap -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-own-target-headers.hmap -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-all-target-headers.hmap -iquote /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-project-headers.hmap -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Products/Debug/include -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources/x86_64 -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources -F/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Products/Debug -MMD -MT dependencies -MF /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/main.d -c /Users/marlon/Documents/Programs/zanette/zanette/main.c -o /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/main.o36"8589BFF0-CE88-4AC5-AC86-C02E08D748B9-
 
+CCompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/main.o /Users/marlon/Documents/zanette_model/zanette/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365344814.126683
+e365344814.239146
+r1
+xCompileC
+xDerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/main.o
+x/Users/marlon/Documents/zanette_model/zanette/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/marlon/Documents/zanette_model/zanette/main.c508c202eb8c6b541^09373d2eb8c6b541^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/marlon/Documents/zanette_model/zanette/main.c0000000000000000^2121"CompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/main.o zanette/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marlon/Documents/zanette_model    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -iquote /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-generated-files.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-own-target-headers.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-all-target-headers.hmap -iquote /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-project-headers.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug/include -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources/x86_64 -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources -F/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug -MMD -MT dependencies -MF /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/main.d -c /Users/marlon/Documents/zanette_model/zanette/main.c -o /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/main.o36"94EDC2E8-B328-482A-9BE0-ED56758275B1-
+
 CCompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.o /Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/measures.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 s365344219.651104
 e365344220.122890
@@ -106,6 +190,34 @@ xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/measures.c9031a7dbb5c6b541^67801fdcb5c6b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/measures.c0000000000000000^2235"CompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.o zanette/../../../../Desktop/DK-model/measures.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marlon/Documents/Programs/zanette    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -iquote /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-generated-files.hmap -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-own-target-headers.hmap -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-all-target-headers.hmap -iquote /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-project-headers.hmap -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Products/Debug/include -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources/x86_64 -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources -F/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Products/Debug -MMD -MT dependencies -MF /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.d -c /Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/measures.c -o /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.o36"F34B0018-057A-4507-BA18-1361ACB15915-
+
+CCompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.o /Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/measures.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365344814.126707
+e365344814.137777
+r0
+xCompileC
+xDerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.o
+x/Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/measures.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/measures.c'
+oclang: error: no input files
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/measures.cd28d202eb8c6b541^bd3a232eb8c6b541^-215"clang: error: no such file or directory: '/Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/measures.c'clang: error: no input filesCommand /Developer/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@56"Command /Developer/usr/bin/clang failed with exit code 1-365344814#18446744073709551615#0#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation3@101"file://localhost/Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/measures.c00f424e0dcffdf42^2199"CompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.o zanette/../../../../Desktop/DK-model/measures.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marlon/Documents/zanette_model    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -iquote /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-generated-files.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-own-target-headers.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-all-target-headers.hmap -iquote /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-project-headers.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug/include -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources/x86_64 -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources -F/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug -MMD -MT dependencies -MF /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.d -c /Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/measures.c -o /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.o36"E80D60E7-F980-47F5-9C98-02AF482E78A8-
+
+CCompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.o /Users/marlon/Documents/zanette_model/zanette/measures.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365344878.865344
+e365344878.899762
+r1
+xCompileC
+xDerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.o
+x/Users/marlon/Documents/zanette_model/zanette/measures.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/marlon/Documents/zanette_model/zanette/measures.ca9a5dd6eb8c6b541^fe0ee56eb8c6b541^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/marlon/Documents/zanette_model/zanette/measures.c0000000000000000^2141"CompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.o zanette/measures.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marlon/Documents/zanette_model    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -iquote /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-generated-files.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-own-target-headers.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-all-target-headers.hmap -iquote /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-project-headers.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug/include -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources/x86_64 -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources -F/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug -MMD -MT dependencies -MF /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.d -c /Users/marlon/Documents/zanette_model/zanette/measures.c -o /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/measures.o36"6486BE59-CB63-4A77-8095-6E164BCF983A-
 
 CCompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.o /Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/network.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 s365344219.650942
@@ -120,6 +232,34 @@ xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/network.c4832a7dbb5c6b541^2bf61fdcb5c6b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/network.c0000000000000000^2230"CompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.o zanette/../../../../Desktop/DK-model/network.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marlon/Documents/Programs/zanette    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -iquote /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-generated-files.hmap -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-own-target-headers.hmap -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-all-target-headers.hmap -iquote /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-project-headers.hmap -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Products/Debug/include -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources/x86_64 -I/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources -F/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Products/Debug -MMD -MT dependencies -MF /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.d -c /Users/marlon/Documents/Programs/zanette/zanette/../../../../Desktop/DK-model/network.c -o /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.o36"9F0C19ED-ECBC-4112-884F-74FB6661B829-
 
+CCompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.o /Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/network.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365344814.127064
+e365344814.239417
+r0
+xCompileC
+xDerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.o
+x/Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/network.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/network.c'
+oclang: error: no input files
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/network.c87a2202eb8c6b541^ed483d2eb8c6b541^-157"clang: error: no such file or directory: '/Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/network.c'clang: error: no input files-0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/network.c00f424e0dcffdf42^2194"CompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.o zanette/../../../../Desktop/DK-model/network.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marlon/Documents/zanette_model    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -iquote /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-generated-files.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-own-target-headers.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-all-target-headers.hmap -iquote /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-project-headers.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug/include -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources/x86_64 -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources -F/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug -MMD -MT dependencies -MF /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.d -c /Users/marlon/Documents/zanette_model/zanette/../../../../Desktop/DK-model/network.c -o /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.o36"AE785355-D694-4F67-BB13-89FC3D0CBA4B-
+
+CCompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.o /Users/marlon/Documents/zanette_model/zanette/network.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365344878.865459
+e365344878.895530
+r1
+xCompileC
+xDerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.o
+x/Users/marlon/Documents/zanette_model/zanette/network.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/marlon/Documents/zanette_model/zanette/network.c93a6dd6eb8c6b541^7a37e66eb8c6b541^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/marlon/Documents/zanette_model/zanette/network.c0000000000000000^2136"CompileC DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.o zanette/network.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marlon/Documents/zanette_model    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -iquote /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-generated-files.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-own-target-headers.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-all-target-headers.hmap -iquote /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/zanette-project-headers.hmap -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug/include -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources/x86_64 -I/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/DerivedSources -F/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug -MMD -MT dependencies -MF /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.d -c /Users/marlon/Documents/zanette_model/zanette/network.c -o /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/network.o36"C051DF62-46AA-4BA9-8724-FB2A830F0ADF-
+
 CLd /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Products/Debug/zanette normal x86_64
 s365344273.812082
 e365344273.831132
@@ -129,4 +269,14 @@ x/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Products/Deb
 xnormal
 xx86_64
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Link /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Products/Debug/zanettec2facf11b6c6b541^1ec6d411b6c6b541^---0#0#0#--693"Ld DerivedData/zanette/Build/Products/Debug/zanette normal x86_64    cd /Users/marlon/Documents/Programs/zanette    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Products/Debug -F/Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Products/Debug -filelist /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/zanette.LinkFileList -mmacosx-version-min=10.7 -o /Users/marlon/Documents/Programs/zanette/DerivedData/zanette/Build/Products/Debug/zanette36"5029B014-1EDB-49C5-B099-05B546207A91-
+
+CLd /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug/zanette normal x86_64
+s365344878.907725
+e365344878.924539
+r1
+xLd
+x/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug/zanette
+xnormal
+xx86_64
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Link /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug/zanetteb072e86eb8c6b541^7ac4ec6eb8c6b541^---0#0#0#--678"Ld DerivedData/zanette/Build/Products/Debug/zanette normal x86_64    cd /Users/marlon/Documents/zanette_model    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug -F/Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug -filelist /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Intermediates/zanette.build/Debug/zanette.build/Objects-normal/x86_64/zanette.LinkFileList -mmacosx-version-min=10.7 -o /Users/marlon/Documents/zanette_model/DerivedData/zanette/Build/Products/Debug/zanette36"A6C8C8C1-2B7E-4263-B308-85C74BD20798-
 
