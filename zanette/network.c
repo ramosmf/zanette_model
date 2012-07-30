@@ -12,7 +12,7 @@
 
 #include "network.h"
 
-int **nbr; // nbracency list
+int **nbr; // Adjacency list
 int *Z; // Vector that keep the vertices degree
 int N, K; // Total number of vertex and edges
 
@@ -23,6 +23,7 @@ double ranD;
 
 void pajek(char *str){
     /* print nodes and edges in pajek's format */
+    
     int m, n;
     FILE *PAJ;
     
@@ -45,7 +46,7 @@ void pajek(char *str){
 }
 
 void addLink(int i, int j){
-    /*  Add link between i and j */
+    /*  add link between i and j */
     
     if(!(nbr[i] = (int *)realloc(nbr[i],(Z[i]+2) * sizeof(int))))
         printf("Not enough memory\n");
@@ -63,6 +64,7 @@ void addLink(int i, int j){
 
 void SWN(double p){
     /* create a small-world network */
+    
     int i, j, v, s;
     
     nbr = (int **)realloc(NULL, N * sizeof(int *));
@@ -130,7 +132,7 @@ int find_nbr(int v, int u){
 }
 
 void destroyNetwork(void){
-    /* Free Memory */
+    /* free memory */
     int i;
     free(Z);
     for(i=0;i<N;i++) free(nbr[i]); 

@@ -41,7 +41,7 @@ int main (int argc, const char * argv[])
     K=atoi(argv[2]);;
     NA=atoi(argv[3]);;
     
-    sprintf(str, "refractory-%d-%d-%d.dat", N, K, NA);
+    sprintf(str, "./data/refractory-%d-%d-%d.dat", N, K, NA);
     outf=fopen(str, "w");
     
     state = (int *)calloc(N, sizeof(int));
