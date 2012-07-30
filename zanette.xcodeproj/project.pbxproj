@@ -1,0 +1,223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378D090815C6B54E000E08FB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 378D090715C6B54E000E08FB /* main.c */; };
+		378D090A15C6B54E000E08FB /* zanette.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 378D090915C6B54E000E08FB /* zanette.1 */; };
+		378D091415C6B5BC000E08FB /* measures.c in Sources */ = {isa = PBXBuildFile; fileRef = 378D091015C6B5BC000E08FB /* measures.c */; };
+		378D091515C6B5BC000E08FB /* network.c in Sources */ = {isa = PBXBuildFile; fileRef = 378D091215C6B5BC000E08FB /* network.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		378D090115C6B54E000E08FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				378D090A15C6B54E000E08FB /* zanette.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		378D090315C6B54E000E08FB /* zanette */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zanette; sourceTree = BUILT_PRODUCTS_DIR; };
+		378D090715C6B54E000E08FB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		378D090915C6B54E000E08FB /* zanette.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = zanette.1; sourceTree = "<group>"; };
+		378D091015C6B5BC000E08FB /* measures.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = measures.c; path = "../../../../Desktop/DK-model/measures.c"; sourceTree = "<group>"; };
+		378D091115C6B5BC000E08FB /* measures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = measures.h; path = "../../../../Desktop/DK-model/measures.h"; sourceTree = "<group>"; };
+		378D091215C6B5BC000E08FB /* network.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = network.c; path = "../../../../Desktop/DK-model/network.c"; sourceTree = "<group>"; };
+		378D091315C6B5BC000E08FB /* network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = network.h; path = "../../../../Desktop/DK-model/network.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378D090015C6B54E000E08FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378D08F815C6B54E000E08FB = {
+			isa = PBXGroup;
+			children = (
+				378D090615C6B54E000E08FB /* zanette */,
+				378D090415C6B54E000E08FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378D090415C6B54E000E08FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378D090315C6B54E000E08FB /* zanette */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378D090615C6B54E000E08FB /* zanette */ = {
+			isa = PBXGroup;
+			children = (
+				378D090715C6B54E000E08FB /* main.c */,
+				378D090915C6B54E000E08FB /* zanette.1 */,
+				378D091015C6B5BC000E08FB /* measures.c */,
+				378D091115C6B5BC000E08FB /* measures.h */,
+				378D091215C6B5BC000E08FB /* network.c */,
+				378D091315C6B5BC000E08FB /* network.h */,
+			);
+			path = zanette;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378D090215C6B54E000E08FB /* zanette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378D090D15C6B54E000E08FB /* Build configuration list for PBXNativeTarget "zanette" */;
+			buildPhases = (
+				378D08FF15C6B54E000E08FB /* Sources */,
+				378D090015C6B54E000E08FB /* Frameworks */,
+				378D090115C6B54E000E08FB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zanette;
+			productName = zanette;
+			productReference = 378D090315C6B54E000E08FB /* zanette */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378D08FA15C6B54E000E08FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "PUC-Rio";
+			};
+			buildConfigurationList = 378D08FD15C6B54E000E08FB /* Build configuration list for PBXProject "zanette" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 378D08F815C6B54E000E08FB;
+			productRefGroup = 378D090415C6B54E000E08FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378D090215C6B54E000E08FB /* zanette */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378D08FF15C6B54E000E08FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D090815C6B54E000E08FB /* main.c in Sources */,
+				378D091415C6B5BC000E08FB /* measures.c in Sources */,
+				378D091515C6B5BC000E08FB /* network.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		378D090B15C6B54E000E08FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		378D090C15C6B54E000E08FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		378D090E15C6B54E000E08FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		378D090F15C6B54E000E08FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378D08FD15C6B54E000E08FB /* Build configuration list for PBXProject "zanette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378D090B15C6B54E000E08FB /* Debug */,
+				378D090C15C6B54E000E08FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378D090D15C6B54E000E08FB /* Build configuration list for PBXNativeTarget "zanette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378D090E15C6B54E000E08FB /* Debug */,
+				378D090F15C6B54E000E08FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378D08FA15C6B54E000E08FB /* Project object */;
+}
